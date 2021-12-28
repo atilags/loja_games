@@ -66,10 +66,10 @@ public class ConfigBase implements CommandLineRunner{
 		
 		productRepository.saveAll(Arrays.asList(prod1, prod2, prod3, prod4, prod5));
 		
-		Client c1 = new Client("Átila Sobrinho", 13228169723l, "atila@gmail.com", "123456abcd");
-		Client c2 = new Client("Vanessa Sobrinho", 15987569856l, "vanessa@gmail.com", "123456abcd");
-		Client c3 = new Client("Google Molina", 15987568952l, "google@gmail.com", "123456abcd");
-		Client c4 = new Client("Yahoo Molina", 36851768512l, "yahoo@gmail.com", "123456abcd");
+		Client c1 = new Client("Jessica Blue", 13228169723l, "jessica@gmail.com", "123456abcd");
+		Client c2 = new Client("Yago Green", 15987569856l, "yago@gmail.com", "123456abcd");
+		Client c3 = new Client("Google Red", 15987568952l, "google@gmail.com", "123456abcd");
+		Client c4 = new Client("Yahoo Purple", 36851768512l, "yahoo@gmail.com", "123456abcd");
 		
 		clientRepository.saveAll(Arrays.asList(c1, c2, c3, c4));
 		
