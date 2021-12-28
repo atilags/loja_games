@@ -1,6 +1,6 @@
 # Loja_Games
 
-Esse programa simula um banco de dados para uma loja de jogos e periféricos, simulando uma tabela de clientes, pedidos, categorias, itens que já foram pedidos, produtos oferecidos pela loja.
+Esse programa simula um banco de dados para uma loja de jogos e periféricos, simulando uma tabela de clientes, pedidos, categorias, itens que já foram comprados e produtos oferecidos pela loja.
 
 Vem como padrão alguns objetos previamente cadastrados para exemplificar o sistema, sendo possível a realização do CRUD para a classe Clientes, para as demais classes somente foi configurado o read, findAll e findById, sendo relativamente rapido a inserção das demais funções do CRUD caso necessário.
 
